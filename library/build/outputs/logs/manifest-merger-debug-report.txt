@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+INJECTED from F:\community\library\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from F:\community\library\AndroidManifest.xml:3:5-49
+		INJECTED from F:\community\library\AndroidManifest.xml
+		INJECTED from F:\community\library\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\community\library\AndroidManifest.xml:5:5-32
+		INJECTED from F:\community\library\AndroidManifest.xml
+		INJECTED from F:\community\library\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\community\library\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\community\library\AndroidManifest.xml:4:5-31
+		INJECTED from F:\community\library\AndroidManifest.xml
+		INJECTED from F:\community\library\AndroidManifest.xml
+application
+ADDED from F:\community\library\AndroidManifest.xml:9:5-20

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#cccccc</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tab_checked">#2b90cf</color>
+    <color name="tab_unchecked">#757575</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#34ba63</color>
+    <color name="gray_dark_bg">#ffbababa</color>
+    <color name="drop_down_selected">#34ba63</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+
+
+
+    <color name="outer_circle_bg_color">#33BEFF</color>
+    <color name="inner_circle_bg_color">#1A79BC</color>
+    <color name="inner_card_text_color">#3E92CD</color>
+    <color name="center_card_bg_color">#FE8A00</color>
+
+    <color name="small_circle_color_blue">#139AC8</color>
+    <color name="small_circle_color_yellow">#F0FF2F</color>
+</resources>

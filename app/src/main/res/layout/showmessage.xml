@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/head"/>
+    <TextView
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:id="@+id/message_title"
+        android:text="消防演习的温馨提示"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:lineSpacingExtra="7dp"
+            android:letterSpacing="0.2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:id="@+id/message_date"
+            android:text="发布时间:2019-19-28"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:lineSpacingExtra="7dp"
+            android:letterSpacing="0.2"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="发布人:武夷小区"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/message_img"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/xiaoqu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:letterSpacing="0.1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="尊敬的业主朋友："
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:lineSpacingExtra="7dp"
+        android:letterSpacing="0.2"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/message_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

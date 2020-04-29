@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <include layout="@layout/head"/>
+    <!-- PullToRefresh 测试的ListView -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/id_lv_test"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1px"
+        android:divider="#FF1493"
+        android:background="#11cccccc"/>
+</LinearLayout>

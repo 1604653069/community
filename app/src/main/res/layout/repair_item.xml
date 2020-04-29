@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/pla_bg"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/repair_item_img"
+                android:src="@mipmap/shachong"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+            <LinearLayout
+                android:layout_marginLeft="7dp"
+                android:gravity="left|center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/repair_item_title"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:text="水管漏水"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/repair_item_time"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14sp"
+                    android:text="今天10:02:12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/repair_item_img_type"
+                    android:src="@mipmap/run"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:id="@+id/repair_item_type"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#1296db"
+                    android:layout_marginTop="5dp"
+                    android:text="派遣中"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/repair_item_content"
+            android:lineSpacingExtra="7dp"
+            android:letterSpacing="0.2"
+            android:text="富士达发送的速度士大夫撒旦法是的发送到发送到手打富士达手打手打富士达富士达"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

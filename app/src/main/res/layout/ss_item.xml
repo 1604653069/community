@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <!-- <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ss_item_touxiang"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/house"
+            />-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ss_item_touxiang"
+            android:src="@mipmap/house"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ss_item_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:text="测试数据"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:lineSpacingExtra="7dp"
+                android:letterSpacing="0.2"
+                android:id="@+id/ss_item_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:text="我也是测试数据"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <GridView
+                android:id="@+id/ss_item_gridview"
+                android:layout_marginTop="10dp"
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </GridView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

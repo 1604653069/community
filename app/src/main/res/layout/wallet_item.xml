@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="#34ba63"
+        android:gravity="center"
+        android:background="@drawable/radiobutton_bg"
+        android:text="20元"
+        android:button="@null"
+        android:id="@+id/wallet_item_btn"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/head"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColor="#77000000"
+                android:id="@+id/edit_re_requestion"
+                android:gravity="left|top"
+                android:hint="请描述下您的问题"
+                android:layout_width="match_parent"
+                android:background="@drawable/repair_edit_bg"
+                android:layout_height="150dp" />
+        </LinearLayout>
+        <GridView
+            android:layout_marginTop="10dp"
+            android:id="@+id/re_gridview"
+            android:numColumns="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </GridView>
+       <LinearLayout
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="10dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textColor="#99000000"
+               android:text="希望上门保修时段"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/tv_select"
+               android:gravity="right"
+               android:text="请选择∨"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+        <Button
+            android:id="@+id/repair_commit"
+            android:textColor="#fff"
+            android:text="提交"
+            android:background="@drawable/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
